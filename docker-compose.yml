@@ -1,0 +1,9 @@
+app:
+  build: .
+  env_file: .env
+  restart: always
+  privileged: true
+  labels:
+    - convox.port.443.protocol=https
+  ports:
+    - 443:9292
