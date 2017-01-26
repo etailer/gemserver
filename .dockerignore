@@ -1,5 +1,7 @@
 .env
 .env.example
+.env.production
+.git
 .gitignore
 Makefile
 README.md
